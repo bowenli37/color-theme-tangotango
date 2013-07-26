@@ -166,6 +166,8 @@
      (message-header-subject ((t (:foreground "white"))))
      (message-header-to ((t (:foreground "white"))))
      (message-header-cc ((t (:foreground "white"))))
+     (org-document-title ((t (:bold t :foreground "#EAEAFF" :height 1.8))))
+     (org-document-info ((t (:foreground "#EAEAFF"))))
      (org-hide ((t (:foreground "#2e3436"))))
      (org-level-1 ((t (:bold t :foreground "dodger blue" :height 1.5))))
      (org-level-2 ((t (:bold nil :foreground "#edd400" :height 1.2))))
@@ -185,6 +187,7 @@
      (org-agenda-date ((t (:foreground "#6ac214"))))
      (org-agenda-date-weekend ((t (:weight normal :foreground "dodger blue"))))
      (org-agenda-date-today ((t (:weight bold :foreground "#edd400"))))
+     (org-scheduled-previously ((t (:weight normal :foreground "#edd400"))))
      (org-block-begin-line ((t ( ; :underline "#426f9f" 
 				:foreground "#888a85" :background "#252b2b"))))
      (org-block-background ((t (:background "#252b2b"))))
