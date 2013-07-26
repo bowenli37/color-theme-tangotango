@@ -175,7 +175,7 @@
      (org-level-4 ((t (:bold nil :foreground "tomato" :height 1.0))))
      (org-date ((t (:underline t :foreground "magenta3"))))
      (org-footnote  ((t (:underline t :foreground "magenta3"))))
-     (org-link ((t (:foreground "skyblue2" :background "#2e3436"))))
+     (org-link ((t (:underline t :foreground "skyblue2" :background "#2e3436"))))
      (org-special-keyword ((t (:foreground "brown"))))
      (org-verbatim ((t (:foreground "#eeeeec" :underline t :slant italic))))
      (org-block ((t (:foreground "#bbbbbc"))))
@@ -188,11 +188,12 @@
      (org-agenda-date-weekend ((t (:weight normal :foreground "dodger blue"))))
      (org-agenda-date-today ((t (:weight bold :foreground "#edd400"))))
      (org-scheduled-previously ((t (:weight normal :foreground "#edd400"))))
-     (org-block-begin-line ((t ( ; :underline "#426f9f" 
+     (org-block-begin-line ((t (:underline "#426f9f" 
 				:foreground "#888a85" :background "#252b2b"))))
      (org-block-background ((t (:background "#252b2b"))))
-     (org-block-end-line ((t ( ; :overline "#426f9f" 
+     (org-block-end-line ((t (:overline "#426f9f"
 				:foreground "#888a85" :background "#252b2b"))))
+     (org-table ((t (:foreground "LightSkyBlue" :box (:line-width 1 :color "deep sky blue" :style released-button)))))
      (anything-header ((t (:bold t :background "grey15" :foreground "#edd400"))))
      (anything-candidate-number ((t (:background "#f57900" :foreground "black"))))
      (ess-jb-comment-face ((t (:background "#2e3436" :foreground "#888a85" :slant italic))))
@@ -217,7 +218,7 @@
      (ediff-current-diff-Ancestor ((t (:background "#555753"))))
      (ediff-current-diff-B ((t (:background "#555753"))))
      (ediff-current-diff-C ((t (:background "#555753"))))
-     (ediff-even-diff-A ((t (:background "gray30"))))
+     (edioff-even-diff-A ((t (:background "gray30"))))
      (ediff-even-diff-Ancestor ((t (:background "gray30"))))
      (ediff-even-diff-B ((t (:background "gray30"))))
      (ediff-even-diff-C ((t (:background "gray30"))))
